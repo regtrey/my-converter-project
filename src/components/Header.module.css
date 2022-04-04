@@ -1,0 +1,13 @@
+header {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+}
+
+.logo {
+  font-size: 3rem;
+  letter-spacing: -1px;
+  color: var(--primary-color);
+}

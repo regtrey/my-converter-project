@@ -1,0 +1,19 @@
+.footer {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+}
+
+.copyright {
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .copyright {
+    font-size: 0.9rem;
+  }
+}
